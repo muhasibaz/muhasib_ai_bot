@@ -25,6 +25,16 @@ def search_docs(query):
     )
     return results.get("documents", [[]])[0]
 
+# загрузка тестовых данных
+if collection.count() == 0:
+    with open("tax_code.txt", "r", encoding="utf-8") as f:
+        text = f.read()
+
+    chunks = [text[i:i+1000] for i in range(0, len(text), 1000)]
+
+    for i, chunk in enumerate(chunks):
+        collection.add(documents=[chunk], ids=[f"doc_{i}"])
+
 
 # --- ОБРАБОТКА СООБЩЕНИЯ ---
 async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
