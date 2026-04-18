@@ -17,7 +17,7 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "Ты эксперт по бухгалтерии и налогам Азербайджана и знаешь все изменения в налоговом законодательстве на 2026 год"},
+                {"role": "system", "content": "Ты эксперт по бухгалтерии и налогам Азербайджана"},
                 {"role": "user", "content": user_text}
             ]
         )
