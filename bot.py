@@ -17,7 +17,7 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "Ты эксперт по бухгалтерии и налогам Азербайджана. Отвечай кратко и точно."},
+                {"role": "system", "content": "Ты эксперт по бухгалтерии и налогам Азербайджана"},
                 {"role": "user", "content": user_text}
             ]
         )
@@ -29,13 +29,9 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await update.message.reply_text(answer)
 
-async def main():
-    app = ApplicationBuilder().token(BOT_TOKEN).build()
-    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle))
+app = ApplicationBuilder().token(BOT_TOKEN).build()
+app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle))
 
-    print("BOT RUNNING...")
-    await app.run_polling()
+print("BOT RUNNING...")
 
-if __name__ == "__main__":
-    import asyncio
-    asyncio.run(main())
+app.run_polling()
