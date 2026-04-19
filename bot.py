@@ -1,8 +1,15 @@
 import os
+
+# ОТКЛЮЧАЕМ телеметрию chromadb
+os.environ["ANONYMIZED_TELEMETRY"] = "False"
+
 from openai import OpenAI
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 import chromadb
+
+
+
 
 print("BOT STARTING...")
 
