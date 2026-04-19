@@ -52,7 +52,8 @@ def load_documents():
 
                     collection.add(
                         documents=[text],
-                        ids=[file]
+                        ids=[path]
+                        metadatas=[{"source": root}]
                     )
 
         print("Knowledge base loaded")
@@ -62,11 +63,19 @@ def load_documents():
 
 
 # --- ПОИСК ---
-def search_docs(query):
-    results = collection.query(
-        query_texts=[query],
-        n_results=3
-    )
+def search_docs(query, category=None):
+    if category:
+        results = collection.query(
+            query_texts=[query],
+            n_results=3,
+            where={"source": category}
+        )
+    else:
+        results = collection.query(
+            query_texts=[query],
+            n_results=3
+        )
+
     return results.get("documents", [[]])[0]
 
 
