@@ -1,6 +1,6 @@
 import os
 
-# ОТКЛЮЧАЕМ телеметрию chromadb
+# отключаем телеметрию chromadb
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
 
 from openai import OpenAI
@@ -8,23 +8,60 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 import chromadb
 
-
-
-
 print("BOT STARTING...")
 
 # --- ENV ---
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+RENDER_EXTERNAL_URL = os.getenv("RENDER_EXTERNAL_URL")
+
+if not BOT_TOKEN:
+    raise ValueError("BOT_TOKEN not set")
+
+if not OPENAI_API_KEY:
+    raise ValueError("OPENAI_API_KEY not set")
 
 # --- AI ---
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-# --- CHROMA (база знаний) ---
-chroma_client = chromadb.Client()
+# --- CHROMA DB ---
+chroma_client = chromadb.Client(
+    settings=chromadb.config.Settings(
+        persist_directory="./chroma_db"
+    )
+)
+
 collection = chroma_client.get_or_create_collection(name="laws")
 
-# --- ПОИСК В ДОКУМЕНТАХ ---
+
+# --- ЗАГРУЗКА ДОКУМЕНТОВ ---
+def load_documents():
+    if collection.count() > 0:
+        return
+
+    base_path = "data"
+
+    try:
+        for root, dirs, files in os.walk(base_path):
+            for file in files:
+                if file.endswith(".txt"):
+                    path = os.path.join(root, file)
+
+                    with open(path, "r", encoding="utf-8") as f:
+                        text = f.read()
+
+                    collection.add(
+                        documents=[text],
+                        ids=[file]
+                    )
+
+        print("Knowledge base loaded")
+
+    except Exception as e:
+        print(f"Error loading docs: {e}")
+
+
+# --- ПОИСК ---
 def search_docs(query):
     results = collection.query(
         query_texts=[query],
@@ -32,18 +69,8 @@ def search_docs(query):
     )
     return results.get("documents", [[]])[0]
 
-# загрузка тестовых данных
-if collection.count() == 0:
-    with open("tax_code.txt", "r", encoding="utf-8") as f:
-        text = f.read()
 
-    chunks = [text[i:i+1000] for i in range(0, len(text), 1000)]
-
-    for i, chunk in enumerate(chunks):
-        collection.add(documents=[chunk], ids=[f"doc_{i}"])
-
-
-# --- ОБРАБОТКА СООБЩЕНИЯ ---
+# --- ОБРАБОТКА ---
 async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_text = update.message.text
 
@@ -59,12 +86,12 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     "content": f"""
 Ты профессиональный бухгалтер и налоговый консультант Азербайджана.
 
-Отвечай ТОЛЬКО на основе предоставленного текста.
-Если информации недостаточно — напиши: "Нет точной информации в базе".
+Отвечай строго на основе текста.
+Если нет точной информации — напиши: "Нет точной информации в базе".
 
 Всегда:
-- указывай статью закона (если есть)
-- отвечай чётко и понятно
+- указывай статью закона
+- не придумывай
 
 ТЕКСТ:
 {context_text}
@@ -74,7 +101,7 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
             ]
         )
 
-        answer = response.choices[0].message.content
+        answer = response.choices[0].message.content or "Нет ответа"
 
     except Exception as e:
         answer = f"Ошибка: {str(e)}"
@@ -82,9 +109,20 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(answer)
 
 
-# --- ЗАПУСК БОТА ---
+# --- ЗАПУСК ---
+load_documents()
+
 app = ApplicationBuilder().token(BOT_TOKEN).build()
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle))
 
 print("BOT RUNNING...")
-app.run_polling()
+
+# --- WEBHOOK (для Render Web Service) ---
+port = int(os.environ.get("PORT", 10000))
+webhook_url = f"{RENDER_EXTERNAL_URL}/{BOT_TOKEN}"
+
+app.run_webhook(
+    listen="0.0.0.0",
+    port=port,
+    webhook_url=webhook_url
+)
