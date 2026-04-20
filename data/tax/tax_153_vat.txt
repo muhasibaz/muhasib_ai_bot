@@ -1,11 +1,9 @@
+Mənbə: Azərbaycan Respublikası Vergi Məcəlləsi
+Mövzu: ƏDV
+Maddə 153. Əlavə dəyər vergisi anlayışı
 
-
-Maddə 153. Əlavə dəyər vergisi anlayışı[986]
-
- 
-
-153.1. Əlavə dəyər vergisi (bundan sonra - ƏDV) vergi tutulan dövriyyədən hesablanan verginin məbləği ilə bu Məcəllənin müddəalarına uyğun olaraq verilən elektron qaimə-fakturalara və ya idxalda ƏDV-nin ödənildiyini göstərən sənədlərə müvafiq surətdə əvəzləşdirilməli olan verginin məbləği arasındakı fərqdir. [987]
+153.1. Əlavə dəyər vergisi (bundan sonra - ƏDV) vergi tutulan dövriyyədən hesablanan verginin məbləği ilə bu Məcəllənin müddəalarına uyğun olaraq verilən elektron qaimə-fakturalara və ya idxalda ƏDV-nin ödənildiyini göstərən sənədlərə müvafiq surətdə əvəzləşdirilməli olan verginin məbləği arasındakı fərqdir.
 
 153.2. Azərbaycan Respublikası ərazisində istehsal olunan kənd təsərrüfatı məhsullarının pərakəndə satışı zamanı ƏDV ticarət əlavəsindən hesablanan verginin məbləğidir.
 
-153.3. 2022-ci il yanvarın 1-dən 5 il müddətində kənd təsərrüfatı məhsullarının (yerli və xarici mənşəli (xarici mənşəli balıq məhsulları istisna olmaqla)) topdan və pərakəndə satışı zamanı ƏDV ticarət əlavəsindən hesablanan verginin məbləği hesab edilir. [988]
+153.3. 2022-ci il yanvarın 1-dən 5 il müddətində kənd təsərrüfatı məhsullarının (yerli və xarici mənşəli (xarici mənşəli balıq məhsulları istisna olmaqla)) topdan və pərakəndə satışı zamanı ƏDV ticarət əlavəsindən hesablanan verginin məbləği hesab edilir.
