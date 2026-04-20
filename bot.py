@@ -1,6 +1,6 @@
 import os
 
-# отключаем телеметрию chromadb
+# --- ОТКЛЮЧАЕМ телеметрию chromadb ---
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
 
 from openai import OpenAI
@@ -34,9 +34,25 @@ chroma_client = chromadb.Client(
 collection = chroma_client.get_or_create_collection(name="laws")
 
 
+# --- ОПРЕДЕЛЕНИЕ КАТЕГОРИИ ---
+def detect_category(query):
+    q = query.lower()
+
+    tax_keywords = ["ндс", "налог", "прибыль", "доход", "vat"]
+    labor_keywords = ["отпуск", "труд", "работник", "зарплата"]
+
+    if any(word in q for word in tax_keywords):
+        return "tax"
+    if any(word in q for word in labor_keywords):
+        return "labor"
+
+    return None
+
+
 # --- ЗАГРУЗКА ДОКУМЕНТОВ ---
 def load_documents():
     if collection.count() > 0:
+        print("Documents already loaded")
         return
 
     base_path = "data"
@@ -50,12 +66,26 @@ def load_documents():
                     with open(path, "r", encoding="utf-8") as f:
                         text = f.read()
 
-                    collection.add(
-                        documents=[text],
-                        ids=[path]
-                        metadatas=[{"source": root}]
-                    )
+                    # определяем категорию
+                    if "tax" in root:
+                        category = "tax"
+                    elif "labor" in root:
+                        category = "labor"
+                    else:
+                        category = "other"
 
+                    # разбиваем на чанки
+                    chunk_size = 700
+                    chunks = [text[i:i+chunk_size] for i in range(0, len(text), chunk_size)]
+
+                    for i, chunk in enumerate(chunks):
+                        collection.add(
+                            documents=[chunk],
+                            ids=[f"{path}_{i}"],
+                            metadatas=[{"category": category}]
+                        )
+
+        chroma_client.persist()
         print("Knowledge base loaded")
 
     except Exception as e:
@@ -63,12 +93,14 @@ def load_documents():
 
 
 # --- ПОИСК ---
-def search_docs(query, category=None):
+def search_docs(query):
+    category = detect_category(query)
+
     if category:
         results = collection.query(
             query_texts=[query],
             n_results=3,
-            where={"source": category}
+            where={"category": category}
         )
     else:
         results = collection.query(
@@ -79,7 +111,7 @@ def search_docs(query, category=None):
     return results.get("documents", [[]])[0]
 
 
-# --- ОБРАБОТКА ---
+# --- ОБРАБОТКА СООБЩЕНИЙ ---
 async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_text = update.message.text
 
@@ -93,14 +125,20 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 {
                     "role": "system",
                     "content": f"""
-Ты профессиональный бухгалтер и налоговый консультант Азербайджана.
+Ты профессиональный налоговый и бухгалтерский консультант Азербайджана.
 
-Отвечай строго на основе текста.
-Если нет точной информации — напиши: "Нет точной информации в базе".
+Отвечай ТОЛЬКО на основе предоставленного текста.
 
-Всегда:
-- указывай статью закона
-- не придумывай
+Если информации недостаточно:
+напиши "Нет точной информации в базе".
+
+ЗАПРЕЩЕНО:
+- додумывать
+- использовать внешние знания
+
+ОБЯЗАТЕЛЬНО:
+- указывать статью закона
+- отвечать кратко и по делу
 
 ТЕКСТ:
 {context_text}
@@ -126,7 +164,8 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle))
 
 print("BOT RUNNING...")
 
-# --- WEBHOOK (для Render Web Service) ---
+
+# --- WEBHOOK (для Render) ---
 port = int(os.environ.get("PORT", 10000))
 webhook_url = f"{RENDER_EXTERNAL_URL}/{BOT_TOKEN}"
 
