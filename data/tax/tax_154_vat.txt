@@ -1,7 +1,7 @@
 Mənbə: Azərbaycan Respublikası Vergi Məcəlləsi
 Mövzu: ƏDV
 Maddə 154. Vergi ödəyiciləri
-Aşar sözlər:  ƏDV, əlavə dəyər vergisi, vergi ödəyiciləri
+Açar sözlər:  ƏDV, əlavə dəyər vergisi, vergi ödəyiciləri
 
 154.1. ƏDV-nin ödəyicisi kimi qeydiyyatdan keçən və ya qeydiyyatdan keçməli olan şəxs ƏDV-nin ödəyicisidir.
 
