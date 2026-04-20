@@ -17,6 +17,6 @@ def add_document(text, doc_id):
 def search_docs(query):
     results = collection.query(
         query_texts=[query],
-        n_results=3
+        n_results=5
     )
     return results["documents"][0]
