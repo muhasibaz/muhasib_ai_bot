@@ -51,13 +51,14 @@ def detect_category(query):
 
 # --- ЗАГРУЗКА ДОКУМЕНТОВ ---
 def load_documents():
-    if collection.count() > 0:
-        print("Documents already loaded")
-        return
-
-    base_path = "data"
+    print("Reloading knowledge base...")
 
     try:
+        # очищаем коллекцию (чтобы не было дублей)
+        collection.delete(where={})
+
+        base_path = "data"
+
         for root, dirs, files in os.walk(base_path):
             for file in files:
                 if file.endswith(".txt"):
