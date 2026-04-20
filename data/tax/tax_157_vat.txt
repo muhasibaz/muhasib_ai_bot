@@ -1,0 +1,38 @@
+Mənbə: Azərbaycan Respublikası Vergi Məcəlləsi
+Mövzu: ƏDV
+Maddə 157. Qeydiyyat
+
+ 
+
+157.1. ƏDV-nin məqsədləri üçün məcburi və ya könüllü qeydiyyat haqqında ərizə müvafiq icra hakimiyyəti orqanının müəyyən etdiyi forma üzrə verilməlidir.
+
+157.2. Şəxs ƏDV-nin məqsədləri üçün qeydiyyatdan keçərkən vergi orqanı həmin şəxsi ƏDV ödəyicilərinin dövlət reyestrində qeydə almağa və ərizə verildikdən sonra 5 iş günündən gec olmayaraq ona müvafiq icra hakimiyyəti orqanının müəyyən etdiyi forma üzrə qeydiyyat bildirişi verməyə, həmin bildirişdə vergi ödəyicisinin adını və ona aid olan digər məlumatı, qeydiyyatın qüvvəyə mindiyi tarixi və VÖEN-i göstərməyə borcludur.
+ƏDV ödəyicisinin qeydiyyat bildirişi ƏDV ödəyicisinə bir dəfə verilir və onda saxlanılır. ƏDV ödəyicisinin qeydiyyat bildirişi itirildikdə və ya yararsız hala düşdükdə vergi ödəyicisinin müraciəti əsasında ona bildirişin surəti verilir.
+
+157.3. Qeydiyyat hansı tarixin əvvəl başlanmasından asılı olaraq aşağıdakı tarixlərin birində qüvvəyə minir:
+
+157.3.1. məcburi qeydiyyat zamanı:
+
+-    ardıcıl 12 aylıq dövrün istənilən ayında (aylarında) vergi tutulan əməliyyatların həcmi 200.000 manatdan artıq olduqda - növbəti ayın birinci günündə;
+
+-    bir əqd və ya müqavilə üzrə ƏDV-yə cəlb olunan əməliyyatın ümumi dəyəri 200.000 manatdan artıq olduqda - əməliyyatın aparıldığı günədək;
+
+-    bu Məcəllənin 154.6-cı maddəsində nəzərdə tutulan fəaliyyətlə məşğul olan şəxslərin dövlət qeydiyyatına və ya vergi orqanında uçota alındığı gündə, bu fəaliyyətlə sonradan məşğul olduqları halda isə həmin fəaliyyəti həyata keçirməyə başladığı gündə.
+
+157.3.2. könüllü qeydiyyat zamanı - qeydiyyat haqqında ərizənin verildiyi aydan sonrakı hesabat dövrünün birinci günündə.
+
+157.3.3. Bu Məcəllənin 85.4-cü maddəsi ilə müəyyən edilmiş 3 il müddətindən çox olmamaqla, vergi ödəyicisinin qeydiyyat haqqındakı ərizəsində göstərilən tarixdə.
+
+Bu Məcəllənin 85.4-cü maddəsində göstərilən 3 illik dövr bitdikdən sonra vergi ödəyicisi tərəfindən ƏDV-nin dəqiqləşdirilməsinə və əvəzləşdirilməsinə yol verilmir.
+
+Bu maddənin müddəaları bu Məcəllənin 218.4.1-ci maddəsində göstərilən şəxslərə, habelə 2024-cü il yanvarın 1-dən əvvəlki dövrə münasibətdə Azərbaycan Respublikasının ərazisində yük daşımalarını həyata keçirən şəxslərə tətbiq edilmir.
+
+157.4. Vergi orqanı ƏDV-nin ödəyicilərinin reyestrini aparmağa borcludur. Vergi ödəyiciləri ƏDV-nin reyestrinə daxil edilərkən onların uçota alınması haqqında vergi orqanına təqdim etdikləri ərizədəki məlumatlardan istifadə olunur.
+
+157.5. ƏDV-nin məqsədləri üçün qeydiyyatdan keçməyə borclu olan, lakin qeydiyyat üçün ərizə verməyən vergi ödəyicisini vergi orqanı öz təşəbbüsü ilə qeydiyyata alır və ona müvafiq qeydiyyat bildirişi göndərir.
+
+157.6. ƏDV ödəyicilərinin məlumatlarında dəyişikliklər baş verdikdə ƏDV ödəyicilərinin dövlət reyestrində müvafiq düzəlişlər edilməlidir.
+
+
+
+157.8. Bu Məcəllə ilə müəyyən olunmuş hallarda rəsmi sorğulara əsasən sorğu edənə "ƏDV ödəyicilərinin reyestrindən çıxarış" verilir.[1016]
