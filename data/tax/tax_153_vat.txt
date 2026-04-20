@@ -1,6 +1,8 @@
 Mənbə: Azərbaycan Respublikası Vergi Məcəlləsi
 Mövzu: ƏDV
 Maddə 153. Əlavə dəyər vergisi anlayışı
+Açar sözlər:  ƏDV, əlavə dəyər vergisi, vergi ödəyiciləri
+
 
 153.1. Əlavə dəyər vergisi (bundan sonra - ƏDV) vergi tutulan dövriyyədən hesablanan verginin məbləği ilə bu Məcəllənin müddəalarına uyğun olaraq verilən elektron qaimə-fakturalara və ya idxalda ƏDV-nin ödənildiyini göstərən sənədlərə müvafiq surətdə əvəzləşdirilməli olan verginin məbləği arasındakı fərqdir.
 
