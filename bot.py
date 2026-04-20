@@ -38,8 +38,8 @@ collection = chroma_client.get_or_create_collection(name="laws")
 def detect_category(query):
     q = query.lower()
 
-    tax_keywords = ["ндс", "налог", "прибыль", "доход", "vat"]
-    labor_keywords = ["отпуск", "труд", "работник", "зарплата"]
+    tax_keywords = ["ədv", "vergi", "mənfəət", "gəlir", "əlavə dəyər vergisi"]
+    labor_keywords = ["məzuniyyət", "əmək", "işçi", "əmək haqqı"]
 
     if any(word in q for word in tax_keywords):
         return "tax"
@@ -138,7 +138,7 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
 Отвечай ТОЛЬКО на основе предоставленного текста.
 
 Если информации недостаточно:
-напиши "Нет точной информации в базе".
+напиши "Verilənlər bazasında dəqiq məlumat yoxdur".
 
 ЗАПРЕЩЕНО:
 - додумывать
