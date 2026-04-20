@@ -54,8 +54,15 @@ def load_documents():
     print("Reloading knowledge base...")
 
     try:
-        # очищаем коллекцию (чтобы не было дублей)
-        collection.delete(where={})
+        # ❗ УДАЛЯЕМ всю коллекцию
+        try:
+            chroma_client.delete_collection(name="laws")
+        except:
+            pass
+
+        # ❗ создаём заново
+        global collection
+        collection = chroma_client.get_or_create_collection(name="laws")
 
         base_path = "data"
 
