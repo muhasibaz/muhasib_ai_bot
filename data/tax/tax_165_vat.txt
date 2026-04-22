@@ -1,10 +1,10 @@
+=== ARTICLE START ===
 Mənbə: Azərbaycan Respublikası Vergi Məcəlləsi
 Mövzu: ƏDV
 
 Maddə 165. Verginin sıfır (0) dərəcəsi ilə tutulması
 
 Açar sözlər:  ƏDV, əlavə dəyər vergisi, ƏDV vergisi sıfır (0) dərəcə 
-
 
 165.1. Aşağıdakı işlərin görülməsinə, xidmətlərin göstərilməsinə və əməliyyatların aparılmasına görə ƏDV sıfır (0) dərəcəsi ilə tutulur:
 
@@ -38,3 +38,5 @@ Açar sözlər:  ƏDV, əlavə dəyər vergisi, ƏDV vergisi sıfır (0) dərəc
 165.5. Fiziki şəxs olan istehlakçılar tərəfindən Azərbaycan Respublikasının ərazisində pərakəndə ticarət və ya ictimai iaşə fəaliyyəti göstərən şəxslərdən alınmış mallara (neft və qaz məhsulları, avtomobillər, alkoqollu içkilər və tütün məmulatları istisna olmaqla), bərbərxanalar, gözəllik salonları və kosmetoloji mərkəzlər tərəfindən göstərilən xidmətlərə, teatr tamaşaları, film nümayişi, muzey ziyarəti və simfonik orkestrin konserti sahəsində göstərilən xidmətlərə, habelə tibb müəssisələri və özəl tibbi praktika ilə məşğul olan fiziki şəxslər tərəfindən göstərilən tibbi xidmətlərə görə ödənilmiş ƏDV-nin qaytarılması qaydasını müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) müəyyən edir. Bu maddəyə uyğun olaraq qaytarılan məbləğ nağdsız qaydada ödənilmiş ƏDV-nin 17,5 faizini, nağd qaydada ödənilmiş ƏDV-nin 5 faizini təşkil edir (teatr tamaşaları, film nümayişi, muzey ziyarəti və simfonik orkestrin konserti sahəsində göstərilən xidmətlərə görə qaytarılan məbləğ istisna olmaqla). Teatr tamaşaları, film nümayişi, muzey ziyarəti və simfonik orkestrin konserti sahəsində göstərilən xidmətlərə görə qaytarılan məbləğ yalnız nağdsız qaydada ödənilmiş ƏDV-nin 50 faizini təşkil edir. Ödənilmiş ƏDV-nin bu maddə ilə müəyyən olunmuş hissəsinin qaytarılması zamanı təqdim edilən nəzarət-kassa aparatının çeki bu Məcəllənin 50.8-ci maddəsinin tələblərinə cavab verməlidir.
 
 165.6. Fiziki şəxs olan istehlakçılar tərəfindən Azərbaycan Respublikasının ərazisində bina tikintisi fəaliyyəti ilə məşğul olan şəxslərdən nağdsız qaydada alınmış yaşayış və qeyri-yaşayış sahələrinə görə ödənilmiş ƏDV-nin qaytarılması şərtlərini və qaydasını müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) təsdiq edir. Bu maddəyə uyğun olaraq qaytarılan məbləğ ödənilmiş ƏDV-nin 30 faizini təşkil edir. Fiziki şəxs olan istehlakçılar eyni binadan bir və ya bir neçə yaşayış və (və ya) qeyri-yaşayış sahələrini aldıqda, ƏDV-nin qaytarılması alınmış yaşayış sahəsinin 500 kvadratmetr və qeyri-yaşayış sahəsinin 500 kvadratmetrdən çox olmayan hissəsinə mütənasib ödənilmiş ƏDV-yə tətbiq edilir.
+
+=== ARTICLE END ===
