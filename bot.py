@@ -82,17 +82,23 @@ def load_documents():
                     else:
                         category = "other"
 
-                    # разбиваем на чанки
-                    chunk_size = 700
-                    chunks = [text[i:i+chunk_size] for i in range(0, len(text), chunk_size)]
 
-                    for i, chunk in enumerate(chunks):
-                        collection.add(
-                            documents=[chunk],
-                            ids=[f"{path}_{i}"],
-                            metadatas=[{"category": category}]
-                        )
 
+items = parse_structured_text(text)
+
+for item in items:
+    collection.add(
+        documents=[item["text"]],
+        ids=[f'{path}_{item["id"]}'],
+        metadatas=[{
+            "category": category,
+            "article": item["article"],
+            "item_id": item["id"]
+        }]
+    )
+
+
+    
         chroma_client.persist()
         print("Knowledge base loaded")
 
@@ -117,6 +123,54 @@ def search_docs(query):
         )
 
     return results.get("documents", [[]])[0]
+
+
+def parse_structured_text(text):
+    items = []
+
+    lines = text.split("\n")
+
+    article = None
+
+    for line in lines:
+        line = line.strip()
+
+        if not line:
+            continue
+
+        # META
+        if line.startswith("ARTICLE:"):
+            article = line.split(":")[1]
+            continue
+
+        # ITEMS
+        if "|" in line:
+            try:
+                item_id, content = line.split("|", 1)
+
+                items.append({
+                    "id": item_id.strip(),
+                    "text": content.strip(),
+                    "article": article
+                })
+            except:
+                continue
+
+    return items
+
+
+# ПОЛНЫЙ СПИСОК
+def get_full_article(article_id, category):
+    results = collection.get(
+        where={
+            "article": article_id,
+            "category": category
+        }
+    )
+
+    return results.get("documents", [])
+
+
 
 
 # --- ОБРАБОТКА СООБЩЕНИЙ ---
