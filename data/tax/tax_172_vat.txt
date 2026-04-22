@@ -1,0 +1,57 @@
+Mənbə: Azərbaycan Respublikası Vergi Məcəlləsi
+Mövzu: ƏDV
+Açar sözlər:  ƏDV, əlavə dəyər vergisi, əməliyyatın dəyəri
+Maddə 172. Agentin həyata keçirdiyi əməliyyatlar
+
+ 
+
+172.1. Digər şəxsin (vəkalət verən) agenti (vəkalət alan) olan şəxs tərəfindən mallar göndərilməsi, işlər görülməsi və ya xidmətlər göstərilməsi vəkalət verənin həyata keçirdiyi əməliyyat sayılır.
+
+172.2. Bu Məcəllənin 172.1-ci maddəsi agentin vəkalət verənə göstərdiyi xidmətlərə tətbiq edilmir.
+
+172.3. Bu Məcəllənin 172.1-ci maddəsi rezident olmayan və Azərbaycan Respublikasında ƏDV-nin ödəyicisi kimi qeydiyyatdan keçməmiş şəxsin rezident agentinin Azərbaycan Respublikasına mallar göndərməsinə tətbiq edilmir. Belə hallarda, ƏDV-nin məqsədləri üçün malların göndərilməsi agent tərəfindən həyata keçirilən əməliyyat sayılır.
+
+Turist agentlərinin xidmətləri, komisyon qaydada satış, işlənmiş malların satışı və ümumi qaydalara əsasən vergitutma bazasının müəyyənləşdirilməsi çətin olan digər sahələr üzrə ödənilməli olan ƏDV-nin məbləği bu maddə ilə müəyyənləşdirilir.
+
+172.4. Digər şəxsin agent vasitəsilə həyata keçirdiyi əməliyyatlar üzrə ƏDV-nin vergitutma bazası aşağıdakı kimi müəyyənləşdirilir:
+
+172.4.1. Digər şəxs agent vasitəsilə malları təqdim etdikdə, işlər gördükdə və ya xidmətlər göstərdikdə, həmin malların (işlərin, xidmətlərin) dəyəri vergi tutulan əməliyyatların dəyəri və vergitutma bazası hesab edilir.
+
+Agent tərəfindən göstərilən xidmətlərə görə ona ödənilən haqlar (mükafatlar) agentin vergi tutulan əməliyyatlarına daxil edilməklə yanaşı, digər şəxsin gəlirdən çıxılan xərclərinə aid edilir.
+
+Agentin digər şəxsdən aldığı elektron qaimə-faktura ona ƏDV məbləğini əvəzləşdirmək hüququ vermir.
+
+172.4.2. Digər şəxs (vəkalət verən) üçün vergi tutulan əməliyyatların vaxtı bu Məcəllənin 166-cı maddəsi ilə müəyyən edilən vaxtdır. Digər şəxs (vəkalət verən) tərəfindən malların agentə təhvil verilməsi bu məqsəd üçün nəzərdə tutulan elektron qaimə-faktura ilə rəsmiləşdirilir.
+
+172.4.3. Agent ƏDV üzrə vergi ödəyicisi olduqda, digər şəxsə (vəkalət verənə) göstərdiyi xidmətlərə görə elektron qaimə-faktura verir. Elektron qaimə-faktura ƏDV ödəyicisi olan digər şəxs (vəkalət verən) tərəfindən agentə ödənilmiş ƏDV-ni əvəzləşdirmək hüququ verir.
+
+Agent ƏDV-nin məqsədləri üçün qeydiyyatda olduğu halda digər şəxsdən (vəkalət verəndən) qəbul etdiyi mallar (işlər, xidmətlər) üçün həmin malların (işlərin, xidmətlərin) alıcılarına bu Məcəllənin 71-1.5.5-ci maddəsində nəzərdə tutulan elektron qaimə-faktura verir. Həmin elektron qaimə-faktura bu Məcəllənin 175-ci maddəsinə uyğun olaraq ödənilmiş ƏDV-nin əvəzləşdirilməsinə əsas verir. Agent ƏDV-nin məqsədləri üçün qeydiyyatda olmadıqda, alıcı tərəfindən alınmış malların (işlərin, xidmətlərin) dəyəri digər şəxsin (vəkalət verənin) hesabına nağdsız qaydada, ƏDV məbləği ƏDV-nin depozit hesabına ödənildiyi halda agent tərəfindən həmin malların (işlərin, xidmətlərin) alıcısına verilmiş elektron qaimə-faktura ödənilmiş ƏDV-nin əvəzləşdirilməsinə əsas verir. Bu zaman malların (işlərin, xidmətlərin) alıcısı agentdən aldığı elektron qaimə-faktura əsasında digər şəxsə (vəkalət verənə) malların (işlərin, xidmətlərin) dəyərini nağdsız qaydada, ƏDV məbləğini ƏDV-nin depozit hesabına ödəməklə ödənilmiş ƏDV məbləğini əvəzləşdirir.
+
+172.4.4. Agent üçün vergitutma bazası onun digər şəxslərə malların təqdim edilməsi (işlərin görülməsi, xidmətlərin göstərilməsi) üzrə göstərdiyi xidmətlərin dəyəri, vergi tutulan əməliyyatların vaxtı bu Məcəllənin 166-cı maddəsi ilə müəyyən edilən vaxt, vergi tutulan əməliyyatların dəyəri isə onun digər şəxsdən almalı olduğu (aldığı) haqdır (mükafatdır).
+
+172.5. Digər şəxsin agent vasitəsilə həyata keçirdiyi əməliyyatlarda ƏDV hesablanmasının sahəvi xüsusiyyətləri aşağıdakı qaydada müəyyənləşdirilir:
+
+
+172.5.2. Lotereyaların keçirilməsi şərtlərinə uyğun olaraq uduş fondu tam və ya qismən mallardan ibarət olduqda, lotereya keçirən şəxs tərəfindən uduş fondu üçün alınmış mallara görə ödənilmiş ƏDV məbləği əvəzləşdirilmir.
+
+172.5.3. Azərbaycan Respublikası ərazisindən digər ölkələrə keçən marşrutlar üzrə turist xidmətləri göstərən şəxslər üçün turist xidmətlərinin (Azərbaycan Respublikası ərazisindən kənarda göstərilən xidmətlər istisna olmaqla) dəyəri, turist vərəqələrini təqdim edən şəxslər (agentlər) üçün isə bu təqdimetmə üzrə göstərilən xidmətlərin dəyəri vergitutma bazası hesab edilir.
+
+172.5.4. Malların komisyon qaydada satışı zamanı komitent üçün vergitutma bazası komisyonçuya verilmiş malların dəyəridir (komisyon haqları çıxılmadan).
+
+172.5.5. Komisyonçunun komitentdən aldığı elektron qaimə-faktura komisyonçuya ƏDV məbləğini əvəzləşdirmək hüququ vermir.
+
+
+
+172.5.7. Komitent qeyri-rezident olduqda, bu Məcəllənin 172.3-cü maddəsinə əsasən malların komissiya qaydasında satışı üzrə əməliyyatlar agentin, yəni komisyonçunun apardığı əməliyyatlar hesab edilir.
+
+Bu halda komisyonçu üçün vergitutma bazası komisyon qaydasında satdığı malların dəyəri, habelə komitentə göstərdiyi xidmətlərin dəyəri hesab edilir. Komisyonçunun vergi tutulan əməliyyatının dəyəri komisyon qaydasında satılan mallar üzrə komitentin müəyyən etdiyi satış qiyməti (ƏDV-siz) və komitentə göstərdiyi xidmətlər üzrə komitentdən almalı olduğu (aldığı) xidmət haqqıdır (mükafatdır).
+
+Komisyonçu üçün vergi tutulan əməliyyatın vaxtı bu Məcəllənin 166-cı maddəsi ilə müəyyən edilən vaxt sayılır.
+
+Komisyonçu idxal olunmuş mallara görə gömrük orqanlarına ƏDV ödəmişdirsə, bu ödəmənin yerinə yetirildiyini təsdiq edən sənədlər ƏDV ödəyicisi olan komisyonçuya həmin ƏDV məbləğinin əvəzləşdirmək hüququ verir. Komisyonçu vergi ödəyicisi olduqda, komissiya qaydasında təqdim etdiyi mallara ümumi qaydada ƏDV tətbiq etməlidir.
+
+Komisyon qaydasında idxal olunmuş mallar ƏDV ödəyicisi olan komisyonçu tərəfindən satılmadan tam və ya qismən komitentin tapşırığı ilə Azərbaycan Respublikası ərazisində başqa şəxsə verildikdə, gömrük orqanlarına ödənilmiş ƏDV-nin əvəzləşdirilən məbləğinin malların satılmayan hissəsinə düşən məbləği komisyonçu tərəfindən büdcəyə hesablanmalıdır.
+
+172.5.8. Digər şəxsin agent vasitəsilə həyata keçirdiyi əməliyyatlar üzrə vergi tutulan əməliyyatların aparıldığı vaxt, büdcəyə ƏDV-nin hesablanması, büdcəyə ödəmələr müəyyən edilərkən ƏDV-nin əvəzləşdirilməsi və elektron qaimə-fakturaların tətbiqi, bu maddənin müddəaları nəzərə alınmaqla, bu Məcəlləyə uyğun olaraq ümumi qaydada müəyyənləşdirilir.
+
+172.6. ƏDV ödəyicisi olan şəxslər tərəfindən bu maddədə göstərilən əməliyyatlardan başqa digər əməliyyatlar da həyata keçirildikdə, həmin əməliyyatların uçotu ayrıca aparılır.

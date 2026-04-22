@@ -1,0 +1,44 @@
+Mənbə: Azərbaycan Respublikası Vergi Məcəlləsi
+Mövzu: ƏDV
+Açar sözlər:  ƏDV, əlavə dəyər vergisi, əvəzləşdirilən ƏDV
+Maddə 175. Büdcəyə ödəmələr müəyyən edilərkən əvəzləşdirilən ƏDV
+
+ 
+
+175.1. Bu maddədə başqa hallar nəzərdə tutulmamışdırsa, ƏDV tutulan əməliyyatlar üçün malların (işlərin, xidmətlərin) alışı zamanı ödənilmiş ƏDV məbləği əməliyyatın dəyəri alıcının bank və digər ödəniş hesabından həmin malları (işləri, xidmətləri) təqdim edən şəxsin bank və digər ödəniş hesabına, ƏDV məbləği ƏDV-nin depozit hesabına ödənildikdə əvəzləşdirilir. Bu maddənin məqsədləri üçün malların (işlərin, xidmətlərin) barter edilməsi, təqdim edilmiş malların (işlərin, xidmətlərin) dəyəri üzrə yaranmış maliyyə öhdəliklərinin qarşılıqlı şəkildə əvəzləşdirilməsi və ya notariusun depozit hesabı vasitəsilə həyata keçirilən əməliyyatlar üzrə əməliyyatın dəyərinin notariusun bankda açdığı depozit hesabına ödənilməsi həmin əməliyyatın ƏDV-siz dəyərinin malları (işləri, xidmətləri) təqdim edən şəxsin bank və digər ödəniş hesabına ödənilməsinə bərabər tutulur. Bu zaman əvəzləşdirilən ƏDV-nin vaxtı aşağıdakı kimi müəyyənləşdirilir:  
+
+175.1.1. hesabat dövrü ərzində həyata keçirilmiş sayılan mal göndərilməsini, iş görülməsini, yaxud xidmət göstərilməsini nəzərdə tutan əməliyyatlar üzrə - alınmış elektron qaimə-faktura üzrə malların (işlərin, xidmətlərin) dəyərinin və ona mütənasib ƏDV məbləğinin tam ödənildiyi vaxt; 
+
+175.1.2. hesabat dövrü ərzində malların idxalı üzrə - bu Məcəllənin 170-ci maddəsinə uyğun olaraq.
+
+175.1.3. vergi ödəyicisinə verilmiş elektron qaimə-faktura üzrə iki və ya daha çox ödəmə aparılarsa, hər ödəmə ödəniş miqdarında ayrıca əməliyyat üçün həyata keçirilmiş sayılır. Vergi ödəyicisinə verilmiş elektron qaimə-faktura üzrə alınmış malların (iş və xidmətlərin) dəyəri ödənilən gündən bir iş günü müddətində, ƏDV-nin məbləği bu Məcəllə ilə və müvafiq icra hakimiyyəti orqanı tərəfindən müəyyən edilmiş qaydada ödənilməlidir. Bu zaman malların (iş və xidmətlərin) dəyəri üzrə iki və ya daha çox ödəmə aparılarsa, ƏDV-nin məbləği aparılmış ödəniş məbləğinə uyğun olaraq ƏDV-nin depozit hesabına ödənilməlidir.
+
+Mallar, işlər və xidmətlərlə bağlı xərclər istehsal məsrəflərinə aid edilmirsə də, belə mallar, işlər və xidmətlər vergi ödəyicisinin kommersiya fəaliyyəti üçün istifadə edilməli olduqda və ya istifadə edildikdə bu Məcəllənin 175.1-ci, 175.1.1-ci və 175.1.2-ci maddələrinin müddəaları tətbiq olunur.
+
+175.2. Bir hissəsi vergi ödəyicisinin sahibkarlıq fəaliyyəti, digər hissəsi isə başqa məqsədlər üçün, o cümlədən ƏDV tutulmayan əməliyyatlar üçün nəzərdə tutulan vergiyə cəlb edilən əməliyyatlara görə nağdsız qaydada ƏDV-nin depozit hesabı vasitəsilə ödənilmiş (mal, iş və xidmət təqdim edənin bank və digər ödəniş hesabına birbaşa nağd qaydada ödənişlər istisna edilməklə) və malların idxalı üçün vergi ödəyicisinə verilmiş elektron qaimə-fakturaları üzrə onun tərəfindən ödənilmiş ƏDV-nin məbləği sahibkarlıq fəaliyyəti üçün istifadə olunan malların (işlərin, xidmətlərin) xüsusi çəkisinə görə müəyyənləşdirilən ƏDV-nin məbləği qədər əvəzləşdirilir.
+
+175.3. Bu Məcəllənin 109.4-cü və 119.2-ci maddələrində göstərilən xərclər istisna olmaqla, bu Məcəllənin 109.3-cü maddəsində nəzərdə tutulan xərclər çəkiləndə, ƏDV-nin əvəzləşdirilməsinə yol verilmir. 
+
+175.4. Vergi ödəyicisi vergi tutulan əməliyyatlar və bu Məcəllənin 164-cü maddəsinə uyğun olaraq ƏDV-dən azad edilmiş əməliyyatlar aparırsa, ƏDV üzrə əvəzləşdirmə üçün vergi tutulan dövriyyənin ümumi dövriyyədəki xüsusi çəkisinə uyğun olaraq müəyyən edilən ƏDV-nin məbləği qəbul olunur. Vergi ödəyicisi tərəfindən ƏDV-yə cəlb edilən əməliyyatlarla yanaşı, ƏDV-dən azad olunan əməliyyatlar aparılarkən, bu əməliyyatlara aid olan mallar (işlər, xidmətlər) üzrə sənədləşdirilmiş məlumatlar əsasında ƏDV ödənilməklə və ƏDV-dən azad edilməklə mədaxil edilən malların (işlərin, xidmətlərin) ayrı-ayrılıqda uçotu aparıldığı halda, ƏDV tutulan əməliyyatlar üçün alınmış mallara (işlərə, xidmətlərə) görə ödənilmiş ƏDV-nin məbləği bu Məcəllənin 175.1-ci maddəsinə uyğun olaraq tam məbləğdə əvəzləşdirilir. 
+
+175.5. Bu Məcəllənin 163-cü maddəsində göstərilən hallarda bəyannamədə büdcəyə çatası ƏDV-nin məbləği düzgün göstərilməmişdirsə, büdcəyə ödənilməli olan ƏDV-nin məbləği həmin halların yarandığı hesabat dövrü üzrə vergi ödəyicisi tərəfindən təqdim edilmiş bəyannamədə dəqiqləşdirilir.
+
+175.6. Bu Məcəllənin 160.4-cü maddəsində göstərilən hal istisna olmaqla, ƏDV-dən azad olunan, yaxud ƏDV-yə cəlb edilməyən əməliyyatlar aparan şəxslər tərəfindən mallar (işlər, xidmətlər) alınarkən bu maddə ilə müəyyən edilmiş qaydada ödənilmiş ƏDV məbləği əvəzləşdirilmir. Dövlət büdcəsindən ayrılan vəsaitlər (subsidiya (aktivlərə aid edilən subsidiya istisna olmaqla) və geri qaytarılmalı vəsaitlər istisna olmaqla) hesabına mallar (işlər, xidmətlər) alınarkən, ödənilmiş ƏDV -nin məbləği əvəzləşdirilmir. 
+
+175.7. Sıfır (0) dərəcəsi ilə ƏDV tutulan əməliyyatlar ƏDV cəlb olunan əməliyyatlar hesab edilir və belə əməliyyatlar aparan şəxslər tərəfindən mallar (işlər, xidmətlər) alınarkən nağdsız qaydada (mal, iş və xidmət təqdim edənin bank və digər ödəniş hesabına birbaşa nağd qaydada ödənişlər istisna edilməklə) ƏDV-nin depozit hesabı vasitəsilə ödənilmiş ƏDV-nin məbləği bu Məcəllənin müddəalarına uyğun olaraq əvəzləşdirilir.
+
+175.8. ƏDV ödəyiciləri, ƏDV-nin məqsədləri üçün qeydiyyatda olmayan səhmlərinin və paylarının 50 faizindən çoxu dövlətə məxsus olan hüquqi şəxslər və büdcə təşkilatları tərəfindən mallar, xidmətlər (işlər) alınarkən onlara verilmiş elektron qaimə-fakturaları üzrə, habelə bina tikintisi fəaliyyəti ilə məşğul olan şəxslərdən yaşayış və qeyri-yaşayış sahələri alan şəxslər tərəfindən ƏDV-nin məbləği ƏDV-nin depozit hesabına köçürülməlidir. ƏDV-nin depozit hesabında uçotun aparılması, ƏDV-nin hərəkəti, bu hesab üzrə aparılan əməliyyatlardan ƏDV-nin əvəzləşdirilməsi və dövlət büdcəsinə köçürülməsi qaydaları müvafiq icra hakimiyyəti orqanı tərəfindən müəyyən edilir.
+
+175.9. Qəbzlər, çeklər və nağd qaydada aparılan əməliyyatların rəsmiləşdirildiyi sənədlər, habelə müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) tərəfindən təsdiq edilən qaydada tərtib edilməyən elektron qaimə-fakturalar bu maddənin məqsədləri üçün verginin əvəzləşdirilməsinə əsas vermir. 
+
+175.10. Gömrük orqanları tərəfindən verilmiş idxalda ƏDV-nin ödənildiyini göstərən idxal sənədləri ödənişin formasından asılı olmayaraq bu maddənin məqsədləri üçün verginin əvəzləşdirilməsinə əsas verir.
+
+Müvəqqəti idxal şəklində Azərbaycan Respublikasının ərazisinə buraxılan və müvəqqəti idxal xüsusi gömrük proseduru altında yerləşdirilmiş mallar sonradan sərbəst dövriyyə üçün buraxılış gömrük proseduru altında yerləşdirildiyi halda idxal əməliyyatı üzrə ödənilmiş ƏDV məbləğləri malların sərbəst dövriyyəyə buraxıldığı hesabat ayında əvəzləşdirilir.
+
+175.11. Əmtəəsiz əməliyyatlar çərçivəsində əldə edilmiş sənədlər bu Məcəllənin 175-ci maddəsinin məqsədləri üçün verginin əvəzləşdirilməsinə əsas vermir. 
+
+175.12. Kənd təsərrüfatı məhsullarının topdan və pərakəndə satışı ilə məşğul olan vergi ödəyiciləri tərəfindən 2022-ci il yanvarın 1-dən əldə edilmiş kənd təsərrüfatı məhsullarına görə 5 il müddətində ödənilmiş ƏDV məbləğləri əvəzləşdirilmir.
+
+175.13. Bu Məcəllənin 175.12-ci maddəsinin müddəalarından asılı olmayaraq idxal edilmiş kənd təsərrüfatı məhsullarının topdan və pərakəndə satışı ilə məşğul olan vergi ödəyiciləri idxal etdikləri kənd təsərrüfatı məhsullarına görə ödənilmiş ƏDV-ni əvəzləşdirmək və həmin məhsulların təqdim edilməsi zamanı ƏDV-ni əməliyyatın tam dəyərindən hesablamaq hüququna malikdirlər. Bu məqsədlə həmin şəxslər öz seçimləri barədə 2024-cü il yanvarın 1-dən kənd təsərrüfatı məhsullarını idxal edəcəkləri tarixədək müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) tərəfindən təsdiq edilmiş məlumat formasını uçotda olduğu vergi orqanına təqdim etməlidirlər. Vergi ödəyicisi məlumat formasını qeyd edilən müddətdə təqdim etmədikdə bu Məcəllənin 175.12-ci maddəsinin müddəaları tətbiq olunur. Vergi ödəyicisinin bu maddə ilə müəyyən edilmiş seçimi il ərzində dəyişdirilmir. 
+
+175.14. Alınmış mallarla (işlərlə, xidmətlərlə) bağlı yaranmış borclar üzrə faktorinq (tələbin güzəşti) əməliyyatları çərçivəsində əməliyyatın dəyəri faktorun (tələb güzəşt edilən şəxsin) bank hesabına, ƏDV məbləği isə satıcının ƏDV depozit hesabına ödənildikdə ödənilmiş ƏDV məbləği əvəzləşdirilir.
