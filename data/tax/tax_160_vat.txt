@@ -1,0 +1,9 @@
+Mənbə: Azərbaycan Respublikası Vergi Məcəlləsi
+Mövzu: ƏDV
+Açar sözlər:  ƏDV, əlavə dəyər vergisi, vergi ödəyiciləri
+Maddə 160. Vergiyə cəlb edilməyən əməliyyatlar, o cümlədən müəssisənin təqdim edilməsi
+
+160.1. Müəssisənin bir əməliyyat çərçivəsində bir vergi ödəyicisi tərəfindən digər vergi ödəyicisinə təqdim edilməsi vergi tutulan əməliyyat sayılmır.
+160.2. Bu Məcəllənin 160.1-ci maddəsində göstərilən halda müəssisəni alan və ya qəbul edən şəxs təqdim edənin bu fəsildə göstərilən və təqdim edilən müəssisəyə aid hüquq və öhdəliklərini öz üzərinə götürür. Bu müddəa müəssisəni təqdim edən şəxsi əvvəlki vergi dövrləri üçün vergiləri, faizləri və ya maliyyə sanksiyalarını ödəməkdən azad etmir.
+160.3. Bu maddə yalnız o halda tətbiq edilir ki, müəssisəni təqdim edən və alan (qəbul edən) tərəflər təqdim edilmədən sonra 10 gündən gec olmayaraq bu maddənin müddəalarının tətbiq edilməsi üçün vergi orqanına yazılı məlumat vermiş olsun.
+160.4. Hüquqi və fiziki şəxslər tərəfindən daşınar və daşınmaz əmlakların, qeyri-maddi aktivlərin, habelə əmlak kompleksi şəklində müəssisələrin dövlət orqanlarına (qurumlarına), eləcə də siyahısı müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) tərəfindən təsdiq edilən ictimai və sosial məqsədlər üçün yaradılmış fondlara əvəzsiz olaraq verilməsi vergi tutulan əməliyyat sayılmır.
