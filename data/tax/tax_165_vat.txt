@@ -2,6 +2,11 @@
 Mənbə: Azərbaycan Respublikası Vergi Məcəlləsi
 Mövzu: ƏDV
 
+ARTICLE:165
+TITLE:Verginin sıfır (0) dərəcəsi ilə tutulması
+TOPIC:ƏDV
+
+
 Maddə 165. Verginin sıfır (0) dərəcəsi ilə tutulması
 
 Açar sözlər:  ƏDV, əlavə dəyər vergisi, ƏDV vergisi sıfır (0) dərəcə 
