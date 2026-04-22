@@ -54,13 +54,11 @@ def load_documents():
     print("Reloading knowledge base...")
 
     try:
-        # ❗ УДАЛЯЕМ всю коллекцию
         try:
             chroma_client.delete_collection(name="laws")
         except:
             pass
 
-        # ❗ создаём заново
         global collection
         collection = chroma_client.get_or_create_collection(name="laws")
 
@@ -74,7 +72,9 @@ def load_documents():
                     with open(path, "r", encoding="utf-8") as f:
                         text = f.read()
 
-                    # определяем категорию
+                    # 👇 ВОТ ЭТА СТРОКА ДОЛЖНА БЫТЬ ЗДЕСЬ (внутри try)
+                    items = parse_structured_text(text)
+
                     if "tax" in root:
                         category = "tax"
                     elif "labor" in root:
@@ -82,29 +82,22 @@ def load_documents():
                     else:
                         category = "other"
 
+                    for item in items:
+                        collection.add(
+                            documents=[item["text"]],
+                            ids=[f'{path}_{item["id"]}'],
+                            metadatas=[{
+                                "category": category,
+                                "article": item["article"],
+                                "item_id": item["id"]
+                            }]
+                        )
 
-
-items = parse_structured_text(text)
-
-for item in items:
-    collection.add(
-        documents=[item["text"]],
-        ids=[f'{path}_{item["id"]}'],
-        metadatas=[{
-            "category": category,
-            "article": item["article"],
-            "item_id": item["id"]
-        }]
-    )
-
-
-    
         chroma_client.persist()
         print("Knowledge base loaded")
 
     except Exception as e:
         print(f"Error loading docs: {e}")
-
 
 # --- ПОИСК ---
 def search_docs(query):
