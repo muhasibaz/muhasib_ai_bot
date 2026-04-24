@@ -49,6 +49,68 @@ def detect_category(query):
     return None
 
 
+# --- ПАРСИНГ СТРУКТУРЫ ---
+def parse_structured_text(text):
+    items = []
+    lines = text.split("\n")
+
+    article = ""
+    title = ""
+    topic = ""
+    keywords = ""
+
+    for line in lines:
+        line = line.strip()
+
+        if not line:
+            continue
+
+        if line.startswith("ARTICLE:"):
+            article = line.split(":", 1)[1].strip()
+            continue
+
+        if line.startswith("TITLE:"):
+            title = line.split(":", 1)[1].strip()
+            continue
+
+        if line.startswith("TOPIC:"):
+            topic = line.split(":", 1)[1].strip()
+            continue
+
+        if line.startswith("KEYWORDS:"):
+            keywords = line.split(":", 1)[1].strip()
+            continue
+
+        # Основные пункты
+        if "|" in line:
+            try:
+                item_id, content = line.split("|", 1)
+
+                items.append({
+                    "id": item_id.strip(),
+                    "text": content.strip(),
+                    "article": article,
+                    "title": title,
+                    "topic": topic,
+                    "keywords": keywords
+                })
+            except:
+                continue
+
+    # 🔥 fallback если структура плохая
+    if not items:
+        items.append({
+            "id": "0",
+            "text": text,
+            "article": article,
+            "title": title,
+            "topic": topic,
+            "keywords": keywords
+        })
+
+    return items
+
+
 # --- ЗАГРУЗКА ДОКУМЕНТОВ ---
 def load_documents():
     print("Reloading knowledge base...")
@@ -72,9 +134,9 @@ def load_documents():
                     with open(path, "r", encoding="utf-8") as f:
                         text = f.read()
 
-                    # 👇 ВОТ ЭТА СТРОКА ДОЛЖНА БЫТЬ ЗДЕСЬ (внутри try)
                     items = parse_structured_text(text)
 
+                    # категория по папке
                     if "tax" in root:
                         category = "tax"
                     elif "labor" in root:
@@ -83,13 +145,23 @@ def load_documents():
                         category = "other"
 
                     for item in items:
+                        # 🔥 ВАЖНО: усиливаем текст для поиска
+                        full_text = f"""
+{item['text']}
+
+Maddə: {item['article']}
+Başlıq: {item['title']}
+Mövzu: {item['topic']}
+Açar sözlər: {item['keywords']}
+"""
+
                         collection.add(
-                            documents=[item["text"]],
-                            ids=[f'{path}_{item["id"]}'],
+                            documents=[full_text],
+                            ids=[f"{path}_{item['id']}"],
                             metadatas=[{
                                 "category": category,
                                 "article": item["article"],
-                                "item_id": item["id"]
+                                "topic": item["topic"]
                             }]
                         )
 
@@ -99,74 +171,33 @@ def load_documents():
     except Exception as e:
         print(f"Error loading docs: {e}")
 
+
 # --- ПОИСК ---
 def search_docs(query):
     category = detect_category(query)
 
+    queries = [
+        query,
+        query + " vergi",
+        query + " qanun"
+    ]
+
     if category:
         results = collection.query(
-            query_texts=[query],
+            query_texts=queries,
             n_results=3,
             where={"category": category}
         )
     else:
         results = collection.query(
-            query_texts=[query],
+            query_texts=queries,
             n_results=3
         )
 
     return results.get("documents", [[]])[0]
 
 
-def parse_structured_text(text):
-    items = []
-
-    lines = text.split("\n")
-
-    article = None
-
-    for line in lines:
-        line = line.strip()
-
-        if not line:
-            continue
-
-        # META
-        if line.startswith("ARTICLE:"):
-            article = line.split(":")[1]
-            continue
-
-        # ITEMS
-        if "|" in line:
-            try:
-                item_id, content = line.split("|", 1)
-
-                items.append({
-                    "id": item_id.strip(),
-                    "text": content.strip(),
-                    "article": article
-                })
-            except:
-                continue
-
-    return items
-
-
-# ПОЛНЫЙ СПИСОК
-def get_full_article(article_id, category):
-    results = collection.get(
-        where={
-            "article": article_id,
-            "category": category
-        }
-    )
-
-    return results.get("documents", [])
-
-
-
-
-# --- ОБРАБОТКА СООБЩЕНИЙ ---
+# --- ОБРАБОТКА ---
 async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_text = update.message.text
 
@@ -182,16 +213,16 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     "content": f"""
 Ты профессиональный налоговый и бухгалтерский консультант Азербайджана.
 
-Отвечай ТОЛЬКО на основе предоставленного текста.
+Отвечай ТОЛЬКО на основе текста ниже.
 
-Если информации недостаточно ищи во внешних проверенных азербайджанских источниках датируемых на раньше 2025-го года и на страницах сайтов www.muhasib.az и www.e-muhasib.az.
+Если нет информации — напиши: "Нет точной информации в базе".
 
 ЗАПРЕЩЕНО:
 - додумывать
 
 ОБЯЗАТЕЛЬНО:
-- указывать статью и пункты статьи закона
-- отвечать кратко и по делу, предоставлять примеры
+- указывать статью и пункт
+- отвечать кратко и чётко
 
 ТЕКСТ:
 {context_text}
@@ -217,14 +248,12 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle))
 
 print("BOT RUNNING...")
 
-
-# --- WEBHOOK (для Render) ---
+# --- WEBHOOK ---
 port = int(os.environ.get("PORT", 10000))
-webhook_url = f"{RENDER_EXTERNAL_URL}/{BOT_TOKEN}"
 
 app.run_webhook(
     listen="0.0.0.0",
     port=port,
-    url_path=BOT_TOKEN,  # 👈 ВАЖНО
+    url_path=BOT_TOKEN,
     webhook_url=f"{RENDER_EXTERNAL_URL}/{BOT_TOKEN}"
 )
