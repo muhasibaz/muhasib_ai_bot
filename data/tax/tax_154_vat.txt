@@ -1,18 +1,24 @@
 Mənbə: Azərbaycan Respublikası Vergi Məcəlləsi
-Mövzu: ƏDV
-Maddə 154. Vergi ödəyiciləri
-Açar sözlər:  ƏDV, əlavə dəyər vergisi, vergi ödəyiciləri
+ARTICLE:154
+TITLE:ƏDV ödəyiciləri (Vergi ödəyiciləri)
+TOPIC:ƏDV
 
-154.1. ƏDV-nin ödəyicisi kimi qeydiyyatdan keçən və ya qeydiyyatdan keçməli olan şəxs ƏDV-nin ödəyicisidir.
+KEYWORDS: ƏDV, əlavə dəyər vergisi, vergi ödəyiciləri
 
-154.2. Qeydiyyatdan keçən şəxs qeydiyyatın qüvvəyə mindiyi andan etibarən vergi ödəyicisi olur. Qeydiyyata dair ərizə verməli olan, lakin qeydiyyatdan keçməmiş şəxs qeydiyyata dair ərizə vermək öhdəliyinin yarandığı dövrdən sonrakı hesabat dövrünün başlanğıcından etibarən vergi ödəyicisi sayılır.
+SUMMARY: Bu maddə ƏDV ödəyicilərinin kimlər olduğunu müəyyən edir.
 
-154.3. Azərbaycan Respublikasına ƏDV tutulan malları idxal edən şəxslər bu cür idxal malları üzrə ƏDV-nin ödəyiciləri sayılırlar.
+---
 
-154.4. ƏDV-nin məqsədləri üçün qeydiyyatdan keçmədən iş görən və ya xidmət göstərən və bu Məcəllənin 169-cu maddəsinə müvafiq surətdə vergiyə cəlb edilməli olan qeyri-rezident şəxs həmin işlər və ya xidmətlər üzrə vergi ödəyicisi sayılır.
+154.1 | ƏDV-nin ödəyicisi kimi qeydiyyatdan keçən və ya qeydiyyatdan keçməli olan şəxs ƏDV-nin ödəyicisidir.
 
-154.5. Bu Məcəllənin 137-ci maddəsinə uyğun olaraq hüquqi şəxs yaratmadan göstərilən birgə sahibkarlıq fəaliyyəti ƏDV-nin məqsədləri üçün ayrıca şəxs sayılır. Bu maddənin məqsədi üçün ayrıca şəxs dedikdə birgə sahibkarlıq fəaliyyətinin uçotunu aparan şəxs nəzərdə tutulur.
+154.2 | Qeydiyyatdan keçən şəxs qeydiyyatın qüvvəyə mindiyi andan etibarən vergi ödəyicisi olur. Qeydiyyata dair ərizə verməli olan, lakin qeydiyyatdan keçməmiş şəxs qeydiyyata dair ərizə vermək öhdəliyinin yarandığı dövrdən sonrakı hesabat dövrünün başlanğıcından etibarən vergi ödəyicisi sayılır.
 
-154.6. Aksizli, məcburi nişanlama ilə nişanlanmalı malların istehsalçıları bina tikintisi fəaliyyəti ilə məşğul olan şəxslər ƏDV-nin ödəyiciləri sayılır.
+154.3 | Azərbaycan Respublikasına ƏDV tutulan malları idxal edən şəxslər bu cür idxal malları üzrə ƏDV-nin ödəyiciləri sayılırlar.
 
-154.7. Bu Məcəllənin 33.8-1-ci maddəsində göstərilən şəxslər (bu Məcəllənin 19-cu maddəsi ilə nəzərdə tutulan daimi nümayəndəliklər istisna olmaqla) ƏDV-nin ödəyiciləri sayılır.
+154.4 | ƏDV-nin məqsədləri üçün qeydiyyatdan keçmədən iş görən və ya xidmət göstərən və bu Məcəllənin 169-cu maddəsinə müvafiq surətdə vergiyə cəlb edilməli olan qeyri-rezident şəxs həmin işlər və ya xidmətlər üzrə vergi ödəyicisi sayılır.
+
+154.5 | Bu Məcəllənin 137-ci maddəsinə uyğun olaraq hüquqi şəxs yaratmadan göstərilən birgə sahibkarlıq fəaliyyəti ƏDV-nin məqsədləri üçün ayrıca şəxs sayılır. Bu maddənin məqsədi üçün ayrıca şəxs dedikdə birgə sahibkarlıq fəaliyyətinin uçotunu aparan şəxs nəzərdə tutulur.
+
+154.6 | Aksizli, məcburi nişanlama ilə nişanlanmalı malların istehsalçıları bina tikintisi fəaliyyəti ilə məşğul olan şəxslər ƏDV-nin ödəyiciləri sayılır.
+
+154.7 | Bu Məcəllənin 33.8-1-ci maddəsində göstərilən şəxslər (bu Məcəllənin 19-cu maddəsi ilə nəzərdə tutulan daimi nümayəndəliklər istisna olmaqla) ƏDV-nin ödəyiciləri sayılır.
